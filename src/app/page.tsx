@@ -4,20 +4,13 @@ import { useEffect } from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Image from 'next/image'
-declare global {
-  interface Window {
-    AOS: any;
-  }
 
-}
 export default function Home() {
   useEffect(() => {
     if (typeof window !== 'undefined' && window.initMain) {
       window.initMain()
     }
-    if (window.AOS) {
-      window.AOS.refresh()  // refresh AOS after hydration
-    }
+  
   }, [])
 
   return (
