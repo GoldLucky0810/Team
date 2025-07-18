@@ -174,7 +174,7 @@ export default function Home() {
                             <i className="bi bi-star-fill"></i>
                             <i className="bi bi-star-fill"></i>
                           </div>
-                          <p>"Their strategic vision and unwavering commitment to results provided exceptional value. Our operational efficiency has signficantly improved."</p>
+                          <p>&quot;Their strategic vision and unwavering commitment to results provided exceptional value. Our operational efficiency has signficantly improved.&quot;</p>
                           <div className="client-info d-flex align-items-center mt-4">
                             <Image src="/assets/img/person/person-f-1.webp" fill className="client-img" alt="Client" loading="lazy"/>
                             <div>
@@ -194,7 +194,7 @@ export default function Home() {
                             <i className="bi bi-star-fill"></i>
                             <i className="bi bi-star-half"></i>
                           </div>
-                          <p>"Collaborating with their team was a revelation. Their innovative strategies guided us toward achieving our objectives with precision and speed."</p>
+                          <p>&quot;Collaborating with their team was a revelation. Their innovative strategies guided us toward achieving our objectives with precision and speed.&quot;</p>
                           <div className="client-info d-flex align-items-center mt-4">
                             <Image src="/assets/img/person/person-m-1.webp" fill className="client-img" alt="Client" loading="lazy"/>
                             <div>
@@ -214,7 +214,7 @@ export default function Home() {
                             <i className="bi bi-star-fill"></i>
                             <i className="bi bi-star-fill"></i>
                           </div>
-                          <p>"The depth of knowledge and unwavering dedication they bring to every project is exceptional. They've become an essential ally in driving our expansion."</p>
+                          <p>&quot;The depth of knowledge and unwavering dedication they bring to every project is exceptional. They&apos;ve become an essential ally in driving our expansion.&quot;</p>
                           <div className="client-info d-flex align-items-center mt-4">
                             <Image src="/assets/img/person/person-f-2.webp" className="client-img" alt="Client" loading="lazy" fill/>
                             <div>
@@ -234,7 +234,7 @@ export default function Home() {
                             <i className="bi bi-star-fill"></i>
                             <i className="bi bi-star-half"></i>
                           </div>
-                          <p>"Their dedication to delivering superior solutions and their meticulous attention to detail have profoundly impacted our corporate growth trajectory."</p>
+                          <p>&quot;Their dedication to delivering superior solutions and their meticulous attention to detail have profoundly impacted our corporate growth trajectory.&quot;</p>
                           <div className="client-info d-flex align-items-center mt-4">
                             <Image src="/assets/img/person/person-f-3.webp" className="client-img" alt="Client" loading="lazy" fill/>
                             <div>
