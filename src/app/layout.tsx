@@ -39,16 +39,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
      
         <a href="#" id="scroll-top" className="scroll-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short"></i></a>
         {/* Vendor JS */}
-        <Script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" strategy="beforeInteractive"/>
-        <Script src="/assets/vendor/php-email-form/validate.js" strategy="beforeInteractive"/>
-        <Script src="/assets/vendor/aos/aos.js" strategy="beforeInteractive"/>
-        <Script src="/assets/vendor/swiper/swiper-bundle.min.js" strategy="beforeInteractive"/>
-        <Script src="/assets/vendor/glightbox/js/glightbox.min.js" strategy="beforeInteractive"/>
-        <Script src="/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js" strategy="beforeInteractive"/>
-        <Script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js" strategy="beforeInteractive"/>
+        <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" async />
+        <script src="/assets/vendor/php-email-form/validate.js" async />
+        <script src="/assets/vendor/aos/aos.js" async />
+        <script src="/assets/vendor/swiper/swiper-bundle.min.js" async/>
+        <script src="/assets/vendor/glightbox/js/glightbox.min.js" async />
+        <script src="/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js" async />
+        <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js" async />
 
         {/* Main JS */}
-        <Script src="/assets/js/main.js" strategy="beforeInteractive"/>
+        <script src="/assets/js/main.js" async/>
       </body>
     </html>
   )
