@@ -251,7 +251,7 @@ export default function Home() {
         </section>
         {/* About Section */}
 
-        <section id="services" className="services sections-bg">
+        {/* <section id="services" className="services sections-bg">
           <div className="container">
             <div className="section-header">
               <h2>Services</h2>
@@ -322,7 +322,7 @@ export default function Home() {
               <button type="submit">Send Message</button>
             </form>
           </div>
-        </section>
+        </section> */}
 
       </main>
       <Footer />
