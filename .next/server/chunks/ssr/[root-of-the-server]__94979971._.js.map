@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///F:/WORK/%21PSW/frontend/src/app/page.tsx"],"sourcesContent":["import Header from '../components/Header'\nimport Footer from '../components/Footer'\nimport { useEffect } from 'react'\n\nexport default function Home() {\n  useEffect(() => {\n    if (typeof window !== 'undefined') {\n      if (window.AOS) window.AOS.init({ duration: 1000 })\n      if (window.GLightbox) window.GLightbox()\n      if (window.Isotope && document.querySelector('.isotope-container')) {\n        new window.Isotope('.isotope-container', {\n          itemSelector: '.portfolio-item',\n          layoutMode: 'fitRows'\n        })\n      }\n      if (window.initMain) window.initMain()\n    }\n  }, [])\n\n  return (\n    <>\n      <Header />\n      <main>\n        {/* Insert full static content here (copied from your HTML), IDs must match JS expectations */}\n      </main>\n      <Footer />\n    </>\n  )\n}"],"names":[],"mappings":";;;;AAAA;AACA;AACA;;;;;AAEe,SAAS;IACtB,CAAA,GAAA,qMAAA,CAAA,YAAS,AAAD,EAAE;QACR;;IAWF,GAAG,EAAE;IAEL,qBACE;;0BACE,8OAAC,4HAAA,CAAA,UAAM;;;;;0BACP,8OAAC;;;;;0BAGD,8OAAC,4HAAA,CAAA,UAAM;;;;;;;AAGb","debugId":null}}]
+}
