@@ -5,6 +5,11 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Image from 'next/image'
 
+declare global {
+  interface Window {
+    initMain: () => void
+  }
+}
 export default function Home() {
   useEffect(() => {
     if (typeof window !== 'undefined' && window.initMain) {
