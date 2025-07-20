@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect } from 'react'
+import {useState, useEffect } from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Image from 'next/image'
@@ -10,16 +10,20 @@ declare global {
     initMain: () => void
   }
 }
+
 export default function Home() {
+  const [isClient, setIsClient] = useState(false);
   useEffect(() => {
+    setIsClient(true);
     if (typeof window !== 'undefined' && window.initMain) {
       window.initMain()
     }
   
   }, [])
-
+  if (!isClient) return null;
+  
   return (
-    <div className="index-page">
+    <div className="index-page" suppressHydrationWarning>
       <Header />
       <main id="main">
 
@@ -29,10 +33,10 @@ export default function Home() {
               <div className="col-lg-7 content-col" data-aos="fade-up">
                 <div className="content">
                   <div className="agency-name">
-                  <h5>OUR AGENCY</h5>
+                  <h5>OUR TEAM</h5>
                   </div>
                   <div className="main-heading">
-                    <h1>CREATIVE <br/>DESIGN</h1>
+                    <h1>BILDING <br/>SOFTWARE</h1>
                     </div>
 
                     <div className="divider"></div>
@@ -89,7 +93,7 @@ export default function Home() {
             <div className="row gx-5 align-items-center">
               <div className="col-lg-6" data-aos="fade-right" data-aos-delay="200">
                 <div className="about-image position-relative">
-                  <Image src="/assets/img/about/about-portrait-1.webp" fill className="img-fluid rounded-4 shadow-sm" alt="About Image" loading="lazy"/>
+                  <Image src="/assets/img/about/about-portrait-1.webp" width={600} height={800} className="img-fluid rounded-4 shadow-sm" alt="About Image" loading="lazy" />
                   <div className="experience-badge">
                     <span className="years">20+</span>
                     <span className="text">Years of Expertise</span>
@@ -176,7 +180,7 @@ export default function Home() {
                           </div>
                           <p>&quot;Their strategic vision and unwavering commitment to results provided exceptional value. Our operational efficiency has signficantly improved.&quot;</p>
                           <div className="client-info d-flex align-items-center mt-4">
-                            <Image src="/assets/img/person/person-f-1.webp" fill className="client-img" alt="Client" loading="lazy"/>
+                            <Image src="/assets/img/person/person-f-1.webp" width={100} height={100} className="client-img" alt="Client" loading="lazy"/>
                             <div>
                               <h6 className="mb-0">Eleanor Vance</h6>
                               <span>Operations Manager</span>
@@ -196,7 +200,7 @@ export default function Home() {
                           </div>
                           <p>&quot;Collaborating with their team was a revelation. Their innovative strategies guided us toward achieving our objectives with precision and speed.&quot;</p>
                           <div className="client-info d-flex align-items-center mt-4">
-                            <Image src="/assets/img/person/person-m-1.webp" fill className="client-img" alt="Client" loading="lazy"/>
+                            <Image src="/assets/img/person/person-m-1.webp" width={100} height={100} className="client-img" alt="Client" loading="lazy"/>
                             <div>
                               <h6 className="mb-0">David Kim</h6>
                               <span>Product Lead</span>
@@ -216,7 +220,7 @@ export default function Home() {
                           </div>
                           <p>&quot;The depth of knowledge and unwavering dedication they bring to every project is exceptional. They&apos;ve become an essential ally in driving our expansion.&quot;</p>
                           <div className="client-info d-flex align-items-center mt-4">
-                            <Image src="/assets/img/person/person-f-2.webp" className="client-img" alt="Client" loading="lazy" fill/>
+                            <Image src="/assets/img/person/person-f-2.webp" className="client-img" alt="Client" loading="lazy" width={100} height={100}/>
                             <div>
                               <h6 className="mb-0">Isabella Diaz</h6>
                               <span>Research Analyst</span>
@@ -236,7 +240,7 @@ export default function Home() {
                           </div>
                           <p>&quot;Their dedication to delivering superior solutions and their meticulous attention to detail have profoundly impacted our corporate growth trajectory.&quot;</p>
                           <div className="client-info d-flex align-items-center mt-4">
-                            <Image src="/assets/img/person/person-f-3.webp" className="client-img" alt="Client" loading="lazy" fill/>
+                            <Image src="/assets/img/person/person-f-3.webp" className="client-img" alt="Client" loading="lazy" width={100} height={100}/>
                             <div>
                               <h6 className="mb-0">Olivia Chen</h6>
                               <span>Development Strategist</span>
