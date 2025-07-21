@@ -544,21 +544,21 @@ export default function Home() {
 
               <div className="content-left flex-grow-1" data-aos="fade-right" data-aos-delay="200">
                 <span className="badge text-uppercase mb-2">Don&apos;t Miss!</span>
-                <h2>Revolutionize Your Digital Experience Today</h2>
-                <p className="my-4">GoldEngineers accelerates your business growth through innovative solutions and cutting-edge technology. Join thousands of satisfied customers who have transformed their operations.</p>
+                <h2>Partner with Elite Engineers to Build Next-Gen Solutions</h2>
+                <p className="my-4">Our senior software team accelerates your innovation with expert full-stack, mobile, desktop, game, firmware, blockchain, and AI development. Join businesses that have scaled faster with our tailored, high-quality solutions.</p>
 
                 <div className="features d-flex flex-wrap gap-3 mb-4">
                   <div className="feature-item">
                     <i className="bi bi-check-circle-fill"></i>
-                    <span>Premium Support</span>
+                    <span>Full-Cycle Development</span>
                   </div>
                   <div className="feature-item">
                     <i className="bi bi-check-circle-fill"></i>
-                    <span>Cloud Integration</span>
+                    <span>Scalable Architecture</span>
                   </div>
                   <div className="feature-item">
                     <i className="bi bi-check-circle-fill"></i>
-                    <span>Real-time Analytics</span>
+                    <span>Future-Proof Technologies</span>
                   </div>
                 </div>
 
