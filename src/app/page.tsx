@@ -52,13 +52,13 @@ export default function Home() {
                   <h5>OUR TEAM</h5>
                   </div>
                   <div className="main-heading">
-                    <h1>BILDING <br/>SOFTWARE</h1>
+                    <h2>BILDING INNOVATION<br/>ENGINEERING FUTURES</h2>
                     </div>
 
                     <div className="divider"></div>
 
                     <div className="description">
-                      <p>Discover innovative strategies for impactful visual communication. We transform ideas into compelling realities, ensuring your brand stands out in a crowded marketplace. Our dedicated team leverages cutting-edge techniques to deliver exceptional results that resonate with your audience.</p>
+                      <p>We are a team of senior engineers mastering the full technology spectrum — from full-stack web and mobile apps to desktop software, games, firmware, blockchain, and AI solutions. Our passion is turning complex ideas into high-impact digital products that power businesses, engage users, and shape .</p>
                     </div>
 
                     <div className="cta-button">
@@ -119,23 +119,23 @@ export default function Home() {
 
               <div className="col-lg-6 mt-4 mt-lg-0" data-aos="fade-left" data-aos-delay="300">
                 <div className="about-content">
-                  <h2>Elevating Business Performance Through Innovation</h2>
-                  <p className="lead">We focus on crafting bespoke strategies that navigate complexity and deliver tangible results for our clients.</p>
-                  <p>Through a blend of sophisticated analytics and creative problem-solving, we empower organizations to thrive in rapidly evolving markets.</p>
+                  <h2>Empowering Innovation Across Every Platform</h2>
+                  <p className="lead">We are a collective of senior software engineers driven by a shared passion for solving complex challenges through technology.</p>
+                  <p>With expertise spanning full-stack web, desktop apps, mobile solutions, game development, embedded firmware, blockchain, and AI — we build products that transform industries. </p>
 
                   <div className="row g-4 mt-3">
                     <div className="col-md-6" data-aos="zoom-in" data-aos-delay="400">
                       <div className="feature-item">
                         <i className="bi bi-check-circle-fill"></i>
-                        <h5>Dedicated Team Support</h5>
-                        <p>Our highly skilled professionals are committed to providing personalized service and impactful solutions on every engagement.</p>
+                        <h5>Proven Technical Excellence</h5>
+                        <p>Our mission is to craft reliable, high-performance solutions tailored to your unique needs, ensuring you stay ahead in a fast-evolving digital world.</p>
                       </div>
                     </div>
                     <div className="col-md-6" data-aos="zoom-in" data-aos-delay="450">
                       <div className="feature-item">
                         <i className="bi bi-lightbulb-fill"></i>
-                        <h5>Forward-Thinking Approach</h5>
-                        <p>We embrace innovative methodologies to develop unique strategies that drive lasting success.</p>
+                        <h5>Comprehensive Product Vision</h5>
+                        <p>We don't just build — we architect complete, future-proof systems that align with your business goals and user needs.</p>
                       </div>
                     </div>
                   </div>
@@ -194,12 +194,12 @@ export default function Home() {
                             <i className="bi bi-star-fill"></i>
                             <i className="bi bi-star-fill"></i>
                           </div>
-                          <p>&quot;Their strategic vision and unwavering commitment to results provided exceptional value. Our operational efficiency has signficantly improved.&quot;</p>
+                          <p>&quot;The team delivered a robust, scalable web platform that exceeded our expectations. Their deep understanding of full-stack technologies and attention to detail set them apart.&quot;</p>
                           <div className="client-info d-flex align-items-center mt-4">
                             <Image src="/assets/img/person/person-f-1.webp" width={100} height={100} className="client-img" alt="Client" loading="lazy"/>
                             <div>
-                              <h6 className="mb-0">Eleanor Vance</h6>
-                              <span>Operations Manager</span>
+                              <h6 className="mb-0">Sophia K</h6>
+                              <span> CTO, FinTech Startup</span>
                             </div>
                           </div>
                         </div>
@@ -214,12 +214,13 @@ export default function Home() {
                             <i className="bi bi-star-fill"></i>
                             <i className="bi bi-star-half"></i>
                           </div>
-                          <p>&quot;Collaborating with their team was a revelation. Their innovative strategies guided us toward achieving our objectives with precision and speed.&quot;</p>
+                          <p>&quot;We partnered with them for a complex firmware project. Their precision, problem-solving skills, and clear communication made the collaboration seamless.
+                          &quot;</p>
                           <div className="client-info d-flex align-items-center mt-4">
                             <Image src="/assets/img/person/person-m-1.webp" width={100} height={100} className="client-img" alt="Client" loading="lazy"/>
                             <div>
-                              <h6 className="mb-0">David Kim</h6>
-                              <span>Product Lead</span>
+                              <h6 className="mb-0">David M</h6>
+                              <span>Product Lead, IoT Company</span>
                             </div>
                           </div>
                         </div>
@@ -234,7 +235,7 @@ export default function Home() {
                             <i className="bi bi-star-fill"></i>
                             <i className="bi bi-star-fill"></i>
                           </div>
-                          <p>&quot;The depth of knowledge and unwavering dedication they bring to every project is exceptional. They&apos;ve become an essential ally in driving our expansion.&quot;</p>
+                          <p>&quot;From design to launch, the team guided us through every phase with expertise. The result was a polished, high-performing app that users love.&quot;</p>
                           <div className="client-info d-flex align-items-center mt-4">
                             <Image src="/assets/img/person/person-f-2.webp" className="client-img" alt="Client" loading="lazy" width={100} height={100}/>
                             <div>
@@ -253,12 +254,53 @@ export default function Home() {
                             <i className="bi bi-star-fill"></i>
                             <i className="bi bi-star-half"></i>
                           </div>
-                          <p>&quot;Their dedication to delivering superior solutions and their meticulous attention to detail have profoundly impacted our corporate growth trajectory.&quot;</p>
+                          <p>&quot;We needed a powerful desktop tool for data visualization, and they nailed it. The application is fast, reliable, and perfectly suited to our workflows.
+                          &quot;</p>
                           <div className="client-info d-flex align-items-center mt-4">
                             <Image src="/assets/img/person/person-f-3.webp" className="client-img" alt="Client" loading="lazy" width={100} height={100}/>
                             <div>
                               <h6 className="mb-0">Olivia Chen</h6>
-                              <span>Development Strategist</span>
+                              <span>Operations Manager, Analytics Firm</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="swiper-slide">
+                        <div className="testimonial-item">
+                          <div className="rating mb-3">
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                          </div>
+                          <p>&quot;Their game development expertise brought our vision to life. From mechanics to graphics optimization, the result was a smooth, engaging experience that gamers love.&quot;</p>
+                          <div className="client-info d-flex align-items-center mt-4">
+                            <Image src="/assets/img/person/person-f-2.webp" className="client-img" alt="Client" loading="lazy" width={100} height={100}/>
+                            <div>
+                              <h6 className="mb-0">Isabella Diaz</h6>
+                              <span>Creative Director, Indie Game Studio</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="swiper-slide">
+                        <div className="testimonial-item">
+                          <div className="rating mb-3">
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-half"></i>
+                          </div>
+                          <p>&quot;We collaborated on a decentralized finance (DeFi) solution. Their blockchain proficiency and security-first mindset ensured a flawless and secure product launch.&quot;</p>
+                          <div className="client-info d-flex align-items-center mt-4">
+                            <Image src="/assets/img/person/person-f-3.webp" className="client-img" alt="Client" loading="lazy" width={100} height={100}/>
+                            <div>
+                              <h6 className="mb-0">Olivia Chen</h6>
+                              <span>Operations Manager, Analytics Firm</span>
                             </div>
                           </div>
                         </div>
@@ -318,11 +360,11 @@ export default function Home() {
                   </a>
                   <h3>
                     <a href="service-details.html">
-                      Creative <span>branding</span>
+                      Full-Stack<span>Web Development</span>
                     </a>
                   </h3>
                   <p>
-                    Nulla facilisi. Maecenas eget magna neque. Suspendisse potenti. Curabitur eleifend nisi non magna vulputate, vel condimentum libero tempus. Proin consectetur feugiat diam.
+                  We build dynamic, secure, and scalable web applications — from elegant front-end interfaces to powerful back-end systems — tailored for business success.
                   </p>
                 </div>
               </div>
@@ -336,11 +378,11 @@ export default function Home() {
                   </a>
                   <h3>
                     <a href="service-details.html">
-                      Design <span>systems</span>
+                      Desktop<span>Application Development</span>
                     </a>
                   </h3>
                   <p>
-                    Praesent euismod varius tellus, vel bibendum nunc interdum at. Donec vehicula diam vel metus venenatis convallis. Aliquam erat volutpat. Etiam viverra magna sit amet.
+                  Custom desktop software solutions for Windows, macOS, and Linux that deliver speed, performance, and seamless integration with your infrastructure.
                   </p>
                 </div>
               </div>
@@ -354,11 +396,11 @@ export default function Home() {
                   </a>
                   <h3>
                     <a href="service-details.html">
-                      Marketing <span>strategies</span>
+                      Mobile <span> App Development</span>
                     </a>
                   </h3>
                   <p>
-                    Vivamus tempor velit id magna dictum, sed fermentum nisi faucibus. Integer nec pretium sapien. Fusce tincidunt ligula et purus consequat, ac pellentesque nulla eleifend.
+                  Native and cross-platform mobile apps with intuitive UX and optimized performance for iOS and Android, built to engage and retain users.
                   </p>
                 </div>
               </div>
@@ -372,11 +414,11 @@ export default function Home() {
                   </a>
                   <h3>
                     <a href="service-details.html">
-                      Digital <span>platforms</span>
+                        Game <span>Development</span>
                     </a>
                   </h3>
                   <p>
-                    Cras fermentum odio eu feugiat malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et accumsan cursus. Morbi placerat nulla vel nunc viverra accumsan.
+                  End-to-end game development including design, development, and optimization — creating immersive experiences across platforms.
                   </p>
                 </div>
               </div>
@@ -390,11 +432,11 @@ export default function Home() {
                   </a>
                   <h3>
                     <a href="service-details.html">
-                      Growth <span>acceleration</span>
+                      Firmware &<span> Device Development</span>
                     </a>
                   </h3>
                   <p>
-                    Aenean vel augue vel nisi bibendum posuere. Phasellus in lacus quis urna sodales dignissim. Duis aliquam libero eget risus facilisis. Quisque eget libero vel nisl fringilla.
+                  Expertise in embedded systems and firmware for IoT devices, ensuring efficiency, reliability, and hardware-software synergy.
                   </p>
                 </div>
               </div>
@@ -408,11 +450,11 @@ export default function Home() {
                   </a>
                   <h3>
                     <a href="service-details.html">
-                      Media <span>solutions</span>
+                      Blockchain<span>solutions</span>
                     </a>
                   </h3>
                   <p>
-                    Etiam efficitur lacus in diam finibus, nec ultrices est sagittis. Maecenas elementum magna sed risus faucibus, nec commodo purus facilisis. Vestibulum accumsan magna.
+                  Smart contracts, decentralized apps (dApps), and secure blockchain integrations tailored to modern digital economies.
                   </p>
                 </div>
               </div>
@@ -443,8 +485,8 @@ export default function Home() {
                   </div>
                   <div className="step-info">
                     <span className="step-number">Step 01</span>
-                    <h3>Initial Consultation</h3>
-                    <p>Conducting thorough discovery sessions to understand your business requirements and objectives. Our expert team analyzes your needs to create a customized approach.</p>
+                    <h3>Discover & Define</h3>
+                    <p>We begin by understanding your goals, challenges, and requirements. This helps us define the project scope and strategic direction.</p>
                   </div>
                 </div>
               </div>
@@ -457,8 +499,8 @@ export default function Home() {
                   </div>
                   <div className="step-info">
                     <span className="step-number">Step 02</span>
-                    <h3>Planning &amp; Strategy</h3>
-                    <p>Developing comprehensive strategies and detailed project plans based on the initial consultation. We create actionable roadmaps with clear milestones and deliverables.</p>
+                    <h3>Plan & Architect</h3>
+                    <p>We design a tailored technical roadmap, selecting the most suitable technologies and system architectures to ensure scalability and performance.</p>
                   </div>
                 </div>
               </div>
@@ -471,8 +513,8 @@ export default function Home() {
                   </div>
                   <div className="step-info">
                     <span className="step-number">Step 03</span>
-                    <h3>Development Phase</h3>
-                    <p>Executing the planned strategies with precision and agility. Our team implements solutions while maintaining constant communication and progress updates.</p>
+                    <h3>Build & Iterate</h3>
+                    <p>Our experts develop high-quality software with an agile approach — continuously refining through feedback and ensuring alignment with your vision.</p>
                   </div>
                 </div>
               </div>
@@ -484,8 +526,8 @@ export default function Home() {
                   </div>
                   <div className="step-info">
                     <span className="step-number">Step 04</span>
-                    <h3>Launch &amp; Support</h3>
-                    <p>Ensuring smooth deployment and providing ongoing support for implemented solutions. We monitor performance and make necessary adjustments for optimal results.</p>
+                    <h3>Launch & Evolve</h3>
+                    <p>We deliver a polished product, assist with deployment, and provide ongoing support and enhancements to help you grow and adapt.provide ongoing support and enhancements to help you grow and adapt.</p>
                   </div>
                 </div>
               </div>
@@ -957,9 +999,9 @@ export default function Home() {
                     <Image src="/assets/img/person/person-m-7.webp" width={200} height={200} className="img-fluid" alt="" loading="lazy"/>
                   </div>
                   <div className="member-info flex-grow-1">
-                    <h4>Walter White</h4>
-                    <span>Chief Executive Officer</span>
-                    <p>Aliquam iure quaerat voluptatem praesentium possimus unde laudantium vel dolorum distinctio dire flow</p>
+                    <h4>Jonathan Brien</h4>
+                    <span>Project Manager</span>
+                    <p>Specialist in Agile, Scrum, and risk management, ensuring smooth project delivery through effective coordination and planning.</p>
                     <div className="social">
                       <a href=""><i className="bi bi-facebook"></i></a>
                       <a href=""><i className="bi bi-twitter-x"></i></a>
@@ -977,9 +1019,9 @@ export default function Home() {
                     <Image src="/assets/img/person/person-f-8.webp" width={200} height={200} className="img-fluid" alt="" loading="lazy"/>
                   </div>
                   <div className="member-info flex-grow-1">
-                    <h4>Sarah Jhonson</h4>
-                    <span>Product Manager</span>
-                    <p>Labore ipsam sit consequatur exercitationem rerum laboriosam laudantium aut quod dolores exercitationem ut</p>
+                    <h4>JASON KIM</h4>
+                    <span>Technical Lead / CTO</span>
+                    <p>Expert in system architecture, cloud infrastructure, and microservices, guiding technical direction with 15+ years of leadership experience.</p>
                     <div className="social">
                       <a href=""><i className="bi bi-facebook"></i></a>
                       <a href=""><i className="bi bi-twitter-x"></i></a>
@@ -997,9 +1039,9 @@ export default function Home() {
                     <Image src="/assets/img/person/person-m-6.webp" width={200} height={200} className="img-fluid" alt="" loading="lazy"/>
                   </div>
                   <div className="member-info flex-grow-1">
-                    <h4>William Anderson</h4>
-                    <span>CTO</span>
-                    <p>Illum minima ea autem doloremque ipsum quidem quas aspernatur modi ut praesentium vel tque sed facilis at qui</p>
+                    <h4>DAVID LEE</h4>
+                    <span>Full-Stack Developer</span>
+                    <p>Builds scalable web applications using React, Next.js, Node.js, TypeScript, and modern database solutions like MongoDB and PostgreSQL.</p>
                     <div className="social">
                       <a href=""><i className="bi bi-facebook"></i></a>
                       <a href=""><i className="bi bi-twitter-x"></i></a>
@@ -1017,9 +1059,9 @@ export default function Home() {
                     <Image src="/assets/img/person/person-f-4.webp" width={200} height={200} className="img-fluid" alt="" loading="lazy"/>
                   </div>
                   <div className="member-info flex-grow-1">
-                    <h4>Amanda Jepson</h4>
-                    <span>Accountant</span>
-                    <p>Magni voluptatem accusamus assumenda cum nisi aut qui dolorem voluptate sed et veniam quasi quam consectetur</p>
+                    <h4>HANNAH KIM</h4>
+                    <span>Full-Stack Developer</span>
+                    <p>Skilled in Vue.js, Angular, Node.js, and GraphQL, she delivers end-to-end solutions with clean code, scalable APIs, and optimized front-end experiences.</p>
                     <div className="social">
                       <a href=""><i className="bi bi-facebook"></i></a>
                       <a href=""><i className="bi bi-twitter-x"></i></a>
@@ -1037,9 +1079,9 @@ export default function Home() {
                     <Image src="/assets/img/person/person-m-12.webp" width={200} height={200} className="img-fluid" alt="" loading="lazy"/>
                   </div>
                   <div className="member-info flex-grow-1">
-                    <h4>Brian Doe</h4>
-                    <span>Marketing</span>
-                    <p>Qui consequuntur quos accusamus magnam quo est molestiae eius laboriosam sunt doloribus quia impedit laborum velit</p>
+                    <h4>SOPHIA CHOI</h4>
+                    <span>Mobile App Developer</span>
+                    <p>Delivers intuitive native and cross-platform apps with Swift, Kotlin, Flutter, and React Native, optimized for performance and user experience.</p>
                     <div className="social">
                       <a href=""><i className="bi bi-facebook"></i></a>
                       <a href=""><i className="bi bi-twitter-x"></i></a>
@@ -1057,9 +1099,117 @@ export default function Home() {
                     <Image src="/assets/img/person/person-f-9.webp" width={200} height={200} className="img-fluid" alt="" loading="lazy"/>
                   </div>
                   <div className="member-info flex-grow-1">
-                    <h4>Josepha Palas</h4>
-                    <span>Operation</span>
-                    <p>Sint sint eveniet explicabo amet consequatur nesciunt error enim rerum earum et omnis fugit eligendi cupiditate vel</p>
+                    <h4>MICHAEL YANG</h4>
+                    <span>Desktop App Developer</span>
+                    <p>Develops high-performance desktop applications across Windows, macOS, and Linux using Electron, .NET, and QT frameworks.</p>
+                    <div className="social">
+                      <a href=""><i className="bi bi-facebook"></i></a>
+                      <a href=""><i className="bi bi-twitter-x"></i></a>
+                      <a href=""><i className="bi bi-linkedin"></i></a>
+                      <a href=""><i className="bi bi-youtube"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6" data-aos="fade-up" data-aos-delay="600">
+                <div className="team-member d-flex">
+                  <div className="member-img">
+                    <Image src="/assets/img/person/person-f-9.webp" width={200} height={200} className="img-fluid" alt="" loading="lazy"/>
+                  </div>
+                  <div className="member-info flex-grow-1">
+                    <h4>VICTOR HAN</h4>
+                    <span>Game Developer</span>
+                    <p>Creates immersive games with Unity and Unreal Engine, specializing in 3D optimization, physics, and multiplayer systems.</p>
+                    <div className="social">
+                      <a href=""><i className="bi bi-facebook"></i></a>
+                      <a href=""><i className="bi bi-twitter-x"></i></a>
+                      <a href=""><i className="bi bi-linkedin"></i></a>
+                      <a href=""><i className="bi bi-youtube"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6" data-aos="fade-up" data-aos-delay="600">
+                <div className="team-member d-flex">
+                  <div className="member-img">
+                    <Image src="/assets/img/person/person-f-9.webp" width={200} height={200} className="img-fluid" alt="" loading="lazy"/>
+                  </div>
+                  <div className="member-info flex-grow-1">
+                    <h4>GRACE LIM</h4>
+                    <span>Desktop App Developer</span>
+                    <p>Designs efficient and reliable firmware for embedded devices using C/C++, RTOS, and hardware communication protocols.</p>
+                    <div className="social">
+                      <a href=""><i className="bi bi-facebook"></i></a>
+                      <a href=""><i className="bi bi-twitter-x"></i></a>
+                      <a href=""><i className="bi bi-linkedin"></i></a>
+                      <a href=""><i className="bi bi-youtube"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6" data-aos="fade-up" data-aos-delay="600">
+                <div className="team-member d-flex">
+                  <div className="member-img">
+                    <Image src="/assets/img/person/person-f-9.webp" width={200} height={200} className="img-fluid" alt="" loading="lazy"/>
+                  </div>
+                  <div className="member-info flex-grow-1">
+                    <h4>GRACE LIM</h4>
+                    <span>Desktop App Developer</span>
+                    <p>Designs efficient and reliable firmware for embedded devices using C/C++, RTOS, and hardware communication protocols.</p>
+                    <div className="social">
+                      <a href=""><i className="bi bi-facebook"></i></a>
+                      <a href=""><i className="bi bi-twitter-x"></i></a>
+                      <a href=""><i className="bi bi-linkedin"></i></a>
+                      <a href=""><i className="bi bi-youtube"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6" data-aos="fade-up" data-aos-delay="600">
+                <div className="team-member d-flex">
+                  <div className="member-img">
+                    <Image src="/assets/img/person/person-f-9.webp" width={200} height={200} className="img-fluid" alt="" loading="lazy"/>
+                  </div>
+                  <div className="member-info flex-grow-1">
+                    <h4>DANIEL KIM</h4>
+                    <span>AI / ML Engineer</span>
+                    <p>Builds AI solutions with Python, TensorFlow, and PyTorch, delivering advanced machine learning, computer vision, and NLP capabilities.</p>
+                    <div className="social">
+                      <a href=""><i className="bi bi-facebook"></i></a>
+                      <a href=""><i className="bi bi-twitter-x"></i></a>
+                      <a href=""><i className="bi bi-linkedin"></i></a>
+                      <a href=""><i className="bi bi-youtube"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6" data-aos="fade-up" data-aos-delay="600">
+                <div className="team-member d-flex">
+                  <div className="member-img">
+                    <Image src="/assets/img/person/person-f-9.webp" width={200} height={200} className="img-fluid" alt="" loading="lazy"/>
+                  </div>
+                  <div className="member-info flex-grow-1">
+                    <h4>JULIA SEO</h4>
+                    <span>UI/UX Designer</span>
+                    <p>Crafts user-centered designs using Figma, Sketch, and Adobe XD, with a focus on usability, accessibility, and visual storytelling.</p>
+                    <div className="social">
+                      <a href=""><i className="bi bi-facebook"></i></a>
+                      <a href=""><i className="bi bi-twitter-x"></i></a>
+                      <a href=""><i className="bi bi-linkedin"></i></a>
+                      <a href=""><i className="bi bi-youtube"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6" data-aos="fade-up" data-aos-delay="600">
+                <div className="team-member d-flex">
+                  <div className="member-img">
+                    <Image src="/assets/img/person/person-f-9.webp" width={200} height={200} className="img-fluid" alt="" loading="lazy"/>
+                  </div>
+                  <div className="member-info flex-grow-1">
+                    <h4>ERIC JUNG</h4>
+                    <span>QA / Automation Engineer</span>
+                    <p>Ensures software reliability through automated testing frameworks like Selenium and Cypress, integrated with CI/CD pipelines.</p>
                     <div className="social">
                       <a href=""><i className="bi bi-facebook"></i></a>
                       <a href=""><i className="bi bi-twitter-x"></i></a>
