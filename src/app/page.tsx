@@ -135,7 +135,7 @@ export default function Home() {
                       <div className="feature-item">
                         <i className="bi bi-lightbulb-fill"></i>
                         <h5>Comprehensive Product Vision</h5>
-                        <p>We don't just build — we architect complete, future-proof systems that align with your business goals and user needs.</p>
+                        <p>We don&apos;t just build — we architect complete, future-proof systems that align with your business goals and user needs.</p>
                       </div>
                     </div>
                   </div>
