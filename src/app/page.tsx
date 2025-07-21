@@ -84,7 +84,7 @@ export default function Home() {
           {/* <!-- Section Title --> */}
           <div className="container section-title" data-aos="fade-up">
             <h2>About</h2>
-            <div><span>Learn More</span> <span className="description-title">About Us</span></div>
+            <div><span>Learn More</span> <span className="description-title">About Us!!!</span></div>
           </div>
           {/* <!-- End Section Title --> */}
 
