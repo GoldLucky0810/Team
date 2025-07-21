@@ -485,7 +485,7 @@ export default function Home() {
             <div className="advertise-1 d-flex flex-column flex-lg-row gap-4 align-items-center position-relative">
 
               <div className="content-left flex-grow-1" data-aos="fade-right" data-aos-delay="200">
-                <span className="badge text-uppercase mb-2">Don't Miss!</span>
+                <span className="badge text-uppercase mb-2">Don&apos;t Miss!</span>
                 <h2>Revolutionize Your Digital Experience Today</h2>
                 <p className="my-4">GoldEngineers accelerates your business growth through innovative solutions and cutting-edge technology. Join thousands of satisfied customers who have transformed their operations.</p>
 
