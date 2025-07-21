@@ -13,6 +13,13 @@ declare global {
 
 export default function Home() {
   const [isClient, setIsClient] = useState(false);
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    subject:'',
+    message: ''
+  })
+
   useEffect(() => {
     setIsClient(true);
     if (typeof window !== 'undefined' && window.initMain) {
@@ -21,7 +28,16 @@ export default function Home() {
   
   }, [])
   if (!isClient) return null;
-  
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target
+    setFormData(prev => ({ ...prev, [name]: value }))
+  }
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault()
+    console.log('Form submitted:', formData)
+    // You can add API submission logic here
+  }
   return (
     <div className="index-page" suppressHydrationWarning>
       
@@ -921,6 +937,278 @@ export default function Home() {
 
         </section>
         {/* <!-- /Portfolio Section --> */}
+        {/* <!-- Team Section --> */}
+        <section id="team" className="team section light-background">
+
+          {/* <!-- Section Title --> */}
+          <div className="container section-title" data-aos="fade-up">
+            <h2>Team</h2>
+            <div><span>Check Our</span> <span className="description-title">Team</span></div>
+          </div>
+          {/* <!-- End Section Title --> */}
+
+          <div className="container" data-aos="fade-up" data-aos-delay="100">
+
+            <div className="row gy-4">
+
+              <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                <div className="team-member d-flex">
+                  <div className="member-img">
+                    <Image src="/assets/img/person/person-m-7.webp" width={200} height={200} className="img-fluid" alt="" loading="lazy"/>
+                  </div>
+                  <div className="member-info flex-grow-1">
+                    <h4>Walter White</h4>
+                    <span>Chief Executive Officer</span>
+                    <p>Aliquam iure quaerat voluptatem praesentium possimus unde laudantium vel dolorum distinctio dire flow</p>
+                    <div className="social">
+                      <a href=""><i className="bi bi-facebook"></i></a>
+                      <a href=""><i className="bi bi-twitter-x"></i></a>
+                      <a href=""><i className="bi bi-linkedin"></i></a>
+                      <a href=""><i className="bi bi-youtube"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* <!-- End Team Member --> */}
+
+              <div className="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                <div className="team-member d-flex">
+                  <div className="member-img">
+                    <Image src="/assets/img/person/person-f-8.webp" width={200} height={200} className="img-fluid" alt="" loading="lazy"/>
+                  </div>
+                  <div className="member-info flex-grow-1">
+                    <h4>Sarah Jhonson</h4>
+                    <span>Product Manager</span>
+                    <p>Labore ipsam sit consequatur exercitationem rerum laboriosam laudantium aut quod dolores exercitationem ut</p>
+                    <div className="social">
+                      <a href=""><i className="bi bi-facebook"></i></a>
+                      <a href=""><i className="bi bi-twitter-x"></i></a>
+                      <a href=""><i className="bi bi-linkedin"></i></a>
+                      <a href=""><i className="bi bi-youtube"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* <!-- End Team Member --> */}
+
+              <div className="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                <div className="team-member d-flex">
+                  <div className="member-img">
+                    <Image src="/assets/img/person/person-m-6.webp" width={200} height={200} className="img-fluid" alt="" loading="lazy"/>
+                  </div>
+                  <div className="member-info flex-grow-1">
+                    <h4>William Anderson</h4>
+                    <span>CTO</span>
+                    <p>Illum minima ea autem doloremque ipsum quidem quas aspernatur modi ut praesentium vel tque sed facilis at qui</p>
+                    <div className="social">
+                      <a href=""><i className="bi bi-facebook"></i></a>
+                      <a href=""><i className="bi bi-twitter-x"></i></a>
+                      <a href=""><i className="bi bi-linkedin"></i></a>
+                      <a href=""><i className="bi bi-youtube"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* <!-- End Team Member --> */}
+
+              <div className="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+                <div className="team-member d-flex">
+                  <div className="member-img">
+                    <Image src="/assets/img/person/person-f-4.webp" width={200} height={200} className="img-fluid" alt="" loading="lazy"/>
+                  </div>
+                  <div className="member-info flex-grow-1">
+                    <h4>Amanda Jepson</h4>
+                    <span>Accountant</span>
+                    <p>Magni voluptatem accusamus assumenda cum nisi aut qui dolorem voluptate sed et veniam quasi quam consectetur</p>
+                    <div className="social">
+                      <a href=""><i className="bi bi-facebook"></i></a>
+                      <a href=""><i className="bi bi-twitter-x"></i></a>
+                      <a href=""><i className="bi bi-linkedin"></i></a>
+                      <a href=""><i className="bi bi-youtube"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* <!-- End Team Member --> */}
+
+              <div className="col-lg-6" data-aos="fade-up" data-aos-delay="500">
+                <div className="team-member d-flex">
+                  <div className="member-img">
+                    <Image src="/assets/img/person/person-m-12.webp" width={200} height={200} className="img-fluid" alt="" loading="lazy"/>
+                  </div>
+                  <div className="member-info flex-grow-1">
+                    <h4>Brian Doe</h4>
+                    <span>Marketing</span>
+                    <p>Qui consequuntur quos accusamus magnam quo est molestiae eius laboriosam sunt doloribus quia impedit laborum velit</p>
+                    <div className="social">
+                      <a href=""><i className="bi bi-facebook"></i></a>
+                      <a href=""><i className="bi bi-twitter-x"></i></a>
+                      <a href=""><i className="bi bi-linkedin"></i></a>
+                      <a href=""><i className="bi bi-youtube"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* <!-- End Team Member --> */}
+
+              <div className="col-lg-6" data-aos="fade-up" data-aos-delay="600">
+                <div className="team-member d-flex">
+                  <div className="member-img">
+                    <Image src="/assets/img/person/person-f-9.webp" width={200} height={200} className="img-fluid" alt="" loading="lazy"/>
+                  </div>
+                  <div className="member-info flex-grow-1">
+                    <h4>Josepha Palas</h4>
+                    <span>Operation</span>
+                    <p>Sint sint eveniet explicabo amet consequatur nesciunt error enim rerum earum et omnis fugit eligendi cupiditate vel</p>
+                    <div className="social">
+                      <a href=""><i className="bi bi-facebook"></i></a>
+                      <a href=""><i className="bi bi-twitter-x"></i></a>
+                      <a href=""><i className="bi bi-linkedin"></i></a>
+                      <a href=""><i className="bi bi-youtube"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* <!-- End Team Member --> */}
+
+            </div>
+
+          </div>
+
+        </section>
+        {/* <!-- /Team Section --> */}
+        {/* <!-- Contact Section --> */}
+        <section id="contact" className="contact section">
+
+          {/* <!-- Section Title --> */}
+          <div className="container section-title" data-aos="fade-up">
+            <h2>Contact</h2>
+            <div><span>Let's</span> <span className="description-title">Connect</span></div>
+          </div>
+          {/* <!-- End Section Title --> */}
+
+          <div className="container" data-aos="fade-up" data-aos-delay="100">
+
+            {/* <!-- Contact Info Boxes --> */}
+            <div className="row gy-4 mb-5">
+              <div className="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div className="contact-info-box">
+                  <div className="icon-box">
+                    <i className="bi bi-geo-alt"></i>
+                  </div>
+                  <div className="info-content">
+                    <h4>Our Address</h4>
+                    <p>1842 Maple Avenue, Portland, Oregon 97204</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div className="contact-info-box">
+                  <div className="icon-box">
+                    <i className="bi bi-envelope"></i>
+                  </div>
+                  <div className="info-content">
+                    <h4>Email Address</h4>
+                    <p>goldlucky0810@gmail.com</p>
+                    <p>keremeir20@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                <div className="contact-info-box">
+                  <div className="icon-box">
+                    <i className="bi bi-headset"></i>
+                  </div>
+                  <div className="info-content">
+                    <h4>Hours of Operation</h4>
+                    <p>Sunday-Fri: 9 AM - 6 PM</p>
+                    <p>Saturday: 9 AM - 4 PM</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          {/* <!-- Google Maps (Full Width) --> */}
+          <div className="map-section" data-aos="fade-up" data-aos-delay="200">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
+              width="100%"
+              height="500"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
+
+          {/* <!-- Contact Form Section (Overlapping) --> */}
+          <div className="container form-container-overlap">
+            <div className="row justify-content-center" data-aos="fade-up" data-aos-delay="300">
+              <div className="col-lg-10">
+                <div className="contact-form-wrapper">
+                  <h2 className="text-center mb-4">Get in Touch</h2>
+
+                  <form onSubmit={handleSubmit} className="php-email-form">
+                    <div className="row g-3">
+                      <div className="col-md-6">
+                        <div className="form-group">
+                          <div className="input-with-icon">
+                            <i className="bi bi-person"></i>
+                            <input type="text" className="form-control" name="name" placeholder="First Name" value={formData.name} onChange={handleChange} required/>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="col-md-6">
+                        <div className="form-group">
+                          <div className="input-with-icon">
+                            <i className="bi bi-envelope"></i>
+                            <input type="email" className="form-control" name="email" placeholder="Email Address"  value={formData.email} onChange={handleChange} required/>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="col-md-12">
+                        <div className="form-group">
+                          <div className="input-with-icon">
+                            <i className="bi bi-text-left"></i>
+                            <input type="text" className="form-control" name="subject" placeholder="Subject" value={formData.subject} onChange={handleChange} required/>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="col-12">
+                        <div className="form-group">
+                          <div className="input-with-icon">
+                            <i className="bi bi-chat-dots message-icon"></i>
+                            <textarea className="form-control" name="message" placeholder="Write Message..." style={{height: '180px'}} value={formData.message} onChange={handleChange} required/>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="col-12">
+                        <div className="loading">Loading</div>
+                        <div className="error-message"></div>
+                        <div className="sent-message">Your message has been sent. Thank you!</div>
+                      </div>
+
+                      <div className="col-12 text-center">
+                        <button type="submit" className="btn btn-primary btn-submit">SEND MESSAGE</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </section>
+        {/* <!-- /Contact Section --> */}
       </main>
     </div>
 
